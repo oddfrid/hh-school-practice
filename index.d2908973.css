@@ -302,16 +302,20 @@ h4 {
   margin-right: 0;
 }
 
-.header__button_search {
-  background: url("search.0bb8c215.svg");
+.header__button_facebook {
+  background: url("facebook.ea338ab7.svg");
 }
 
-.header__button_menu {
-  background: url("menu.e83ea243.svg");
+.header__button_twitter {
+  background: url("twitter.02d5a07e.svg");
 }
 
-.header__button_profile {
-  background: url("profile.bc0aefe0.svg");
+.header__button_vk {
+  background: url("vk.f70c6ae3.svg");
+}
+
+.header__button_instagram {
+  background: url("instagram.6fb4e9cf.svg");
 }
 
 .menu-desktop {
@@ -453,6 +457,127 @@ h4 {
 
 .order__button {
   width: 100%;
+}
+
+.services {
+  background-color: #eee;
+}
+
+.services__container {
+  gap: 30px;
+  padding: 30px 0;
+  display: grid;
+}
+
+@media (width >= 768px) {
+  .services__container {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+}
+
+.services__item {
+  align-items: center;
+  gap: 20px;
+  display: flex;
+}
+
+@media (width >= 768px) {
+  .services__item {
+    gap: 10px;
+  }
+}
+
+@media (width >= 930px) {
+  .services__item {
+    gap: 30px;
+  }
+}
+
+@media (width >= 768px) {
+  .services__item_info {
+    max-width: 160px;
+  }
+}
+
+.services__item_icon {
+  width: 40px;
+  height: 40px;
+}
+
+@media (width >= 930px) {
+  .services__item_icon {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.services__item_icon-facebook {
+  background-image: url("facebook.ea338ab7.svg");
+  background-size: cover;
+}
+
+.services__item_icon-twitter {
+  background-image: url("twitter.02d5a07e.svg");
+  background-size: cover;
+}
+
+.services__item_icon-vk {
+  background-image: url("vk.f70c6ae3.svg");
+  background-size: cover;
+}
+
+.services__item_icon-instagram {
+  background-image: url("instagram.6fb4e9cf.svg");
+  background-size: cover;
+}
+
+.footer {
+  background-color: #212122;
+}
+
+.footer__container {
+  color: #999;
+  padding: 30px 0;
+}
+
+.footer__media {
+  display: flex;
+}
+
+.footer__item_icon {
+  width: 36px;
+  height: 36px;
+}
+
+.footer__item_icon-facebook {
+  background-image: url("facebook.ea338ab7.svg");
+}
+
+.footer__item_icon-twitter {
+  background-image: url("twitter.02d5a07e.svg");
+}
+
+.footer__item_icon-vk {
+  background-image: url("vk.f70c6ae3.svg");
+}
+
+.footer__item_icon-instagram {
+  background-image: url("instagram.6fb4e9cf.svg");
+}
+
+.footer__apps {
+  gap: 8px;
+  display: flex;
+}
+
+.footer__logo {
+  background-image: url("hh-footer.cfef0a4c.svg");
+  background-size: cover;
+}
+
+.footer__copy {
+  padding-top: 16px;
 }
 
 /*# sourceMappingURL=index.d2908973.css.map */

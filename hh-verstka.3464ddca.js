@@ -578,4 +578,4 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}]},["8ANXj","j4kuM"], "j4kuM", "parcelRequirece04")
 
-//# sourceMappingURL=hh-school-practice.3464ddca.js.map
+//# sourceMappingURL=hh-verstka.3464ddca.js.map
