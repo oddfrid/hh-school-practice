@@ -5,7 +5,4 @@ module.exports = [
             'no-const-assign': 'error',
         },
     },
-    {
-        ignores: ['.yarn/**/*.js', 'dist/**/*.js'],
-    },
 ];
